@@ -1,0 +1,189 @@
+$c-green: #5D9983;
+$c-lightgreen: #c2e0d5;
+$c-darkgreen: #336f59;
+$c-blue: #abebff;
+$c-brown: #B7AB92;
+$c-darkbrown: #968767;
+$c-red: #D03427;
+$c-orange: #EA8923;
+$c-lightgray: #EEEEEE;
+$c-gray: #AAAAAA;
+$c-charcoal: #333333;
+// @import "./fontawesome/scss/fontawesome.scss";
+// @import "./fontawesome/scss/solid.scss";
+
+.arrow {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    color: $c-green
+}
+
+.big-cont {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.cont {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: auto;
+    background-color: white;
+}
+
+.point-down {
+    background-color: $c-lightgray;
+    color: $c-green;
+
+}
+
+.home-header {
+    width: 100%;
+    height: 100vh;
+    text-transform: uppercase;
+    font-size: 35px;
+    // font-size: calc(10px + 5vw); //35px
+    position: relative;
+    background-color: $c-lightgreen;
+    border-bottom: 30px solid $c-charcoal;
+}
+
+.home-left {
+    font-size: 6.4rem;
+    // border-right: 1px solid $c-orange;
+    z-index: 3;
+    overflow: hidden;
+    max-width: 1000px;
+    margin-top: -30px;
+    // padding-left: 15px;
+
+    img {
+        width: 100px;
+    }
+}
+
+.fName {
+    font-family: 'Polite Type';
+}
+
+.gray {
+    background-color: $c-gray;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Creamy Peachy';
+    font-weight: 600;
+
+
+}
+
+.lName {
+    background-color: black;
+    color: white;
+    font-size: 5.4rem;
+    font-family: 'Polite Type';
+}
+
+.home-roles {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.home-right {
+    background-color: black;
+    background-image: url('../assets/images/grid.png');
+    background-repeat: repeat;
+    z-index: 1;
+}
+.home-window {
+    height: 100%;
+    clip-path: circle(50.0% at 25% 50%);
+    background-color: $c-lightgray;
+    z-index: -1;
+    position: relative;
+    background-image: url('../assets/images/logo-flower.png');
+    background-repeat: no-repeat;
+    background-size: 83%;
+    background-position: left;
+}
+
+.home-nav {
+    font-size: 1rem;
+    z-index: 3;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    text-align: right;
+    display: none;
+    color: $c-darkgreen;
+
+
+    p {
+        color: $c-gray;
+    }
+
+    a {
+        background-color: $c-lightgray;
+        display: inline-block;
+        padding: 2px;
+        position: relative;
+        border: 1px solid $c-gray;
+        cursor: alias;
+        color: $c-darkgreen;
+
+        &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 0;
+            height: 3px;
+            background-color: $c-orange;
+            transition: width 0.25s ease-out;
+        }
+
+        &:hover:before {
+            width: 100%;
+        }
+    }
+
+    .nav-spacer {
+        height: 20px;
+        border-right: 1px solid $c-gray;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        right: 20px;
+        position: relative;
+    }
+}
+
+@media (min-width: 544px) {  
+}
+   
+@media (min-width: 768px) {  
+    .home-nav {
+        display: inline;
+    }
+}
+   
+@media (min-width: 992px) { 
+    .home-window {
+        background-size: 60%;
+    }
+    
+}
+   
+@media (min-width: 1200px) {  
+    .fName {font-size: 8rem; max-width: 1200px;}    
+    .lName {font-size: 7rem;}
+    .gray {font-size: 5rem;}
+    
+
+}
+
+h3 {
+    color: $c-blue;
+}

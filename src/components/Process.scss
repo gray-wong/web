@@ -1,0 +1,48 @@
+$c-green: #5D9983;
+$c-lightgreen: #c2e0d5;
+$c-brown: #B7AB92;
+$c-darkbrown: #968767;
+$c-red: #D03427;
+$c-orange: #EA8923;
+$c-lightgray: #EEEEEE;
+
+.process {
+    max-width: 1200px;
+}
+
+.about-process {
+    padding: 30px 45px 50px 45px;
+    font-size: 1rem;
+    
+    img {
+        width: 50%;
+    }
+    h1 {text-align: center;}
+}
+
+.process-part {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #5D9983;
+
+    i {
+        color: black;
+        background-color: lightgray;
+    }
+}
+
+@media (min-width: 576px) { 
+    .about-process {padding: 30px 100px 50px 100px; img {width: 100%;} h1 {text-align: left;}} 
+}
+   
+@media (min-width: 768px) {  
+    .about-process { img {width: 50%;}} 
+}
+   
+@media (min-width: 992px) { 
+}
+   
+@media (min-width: 1200px) {  
+    .fName {font-size: 8rem; max-width: 1200px;}    
+    .lName {font-size: 7rem;}
+    .gray {font-size: 5rem;}
+}

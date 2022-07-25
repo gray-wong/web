@@ -1,0 +1,77 @@
+$c-green: #5D9983;
+$c-lightgreen: #c2e0d5;
+$c-brown: #B7AB92;
+$c-darkbrown: #968767;
+$c-red: #D03427;
+$c-orange: #EA8923;
+$c-lightgray: #EEEEEE;
+
+.entry-row {
+    display: block;
+    border: 1px solid white;
+    cursor: alias;
+    margin-bottom: 20px;
+}
+
+.num {
+    font-size: 2rem;
+    text-decoration: underline;
+    font-family: 'Cyrene';
+    font-weight: 600;
+}
+
+.entry {
+    font-size: 2.5rem;
+    font-family: 'Polite Type';
+}
+
+.entry-desc {
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 0 5px;
+}
+
+.entry-col {
+    z-index: 5;
+
+    &:nth-of-type(1) {
+        border-left: 2px solid white;
+        border-bottom: 2px solid white;
+        border-top: 2px solid white;
+        border-right: 2px solid white;
+    }
+
+    &:nth-of-type(2) {
+        border-bottom: 2px solid white;
+        border-top: 2px solid white;
+        border-right: 2px solid white;
+    }
+
+    &:nth-of-type(3) {
+        margin-top: 10px;
+    }
+}
+   
+@media (min-width: 992px) { 
+    .entry-col {
+        &:nth-of-type(3) {
+            margin-top: 0px;
+        }
+    }
+    .entry-row {
+        border-bottom: 1px solid white;
+    }
+}
+
+.portfolio-entry {
+    position: relative;
+    background-image: linear-gradient(#dddddd, #dddddd);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size .5s, color .5s;
+
+    &:hover {
+        background-size: 100% 100%;
+    }
+}

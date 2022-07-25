@@ -1,0 +1,29 @@
+$c-green: #5D9983;
+$c-lightgreen: #c2e0d5;
+$c-lightgray: #dddddd;
+
+
+.portfolio {
+    background-color: black;
+    padding: 30px;
+    margin-bottom: 150px;
+    border-bottom: 50px solid white;
+    width: 90%;
+    max-width: 1500px;
+
+    h1 {
+        color: white;
+    }
+    a {
+        color: $c-lightgreen;
+        transition: all 50ms;
+        transition-delay: 0.2s;
+
+
+        &:hover {
+            color: $c-green;
+            
+        }
+    }
+    
+}

@@ -1,0 +1,78 @@
+$c-green: #5D9983;
+$c-lightgreen: #c2e0d5;
+$c-darkgreen: #336f59;
+$c-blue: #abebff;
+$c-brown: #B7AB92;
+$c-darkbrown: #968767;
+$c-red: #D03427;
+$c-orange: #EA8923;
+$c-lightgray: #EEEEEE;
+$c-gray: #AAAAAA;
+$c-charcoal: #333333;
+
+.contact {
+    background-color: $c-brown;
+    color: white;
+    text-align: center;
+    margin-top: -100px;
+
+    a {
+        color: white;
+        background-color: $c-darkgreen;
+        width: 100%;
+        display: inline-block;
+        position: relative;
+        cursor: alias;
+        border-bottom: 1px solid white;
+
+
+        &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 0;
+            height: 5px;
+            background-color: $c-orange;
+            transition: width 0.25s ease-out;
+        }
+
+        &:hover:before {
+            width: 100%;
+        }
+        
+    }
+
+    .contact-message {
+        // text-align: left;
+        margin-bottom: 15px;
+    }
+
+    .contact-nav {
+        margin-top: 0px;
+
+        
+    }
+
+    img {
+        width: 100px;
+        margin-bottom: 0px 0px 20px 0px;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 544px) {  
+}
+   
+@media (min-width: 768px) {  
+    .contact {padding: 0px 100px 50px 100px;}
+    // .contact-nav {text-align: right; margin-top: 0px;}
+    // .contact-message {text-align: left;}
+
+}
+   
+@media (min-width: 992px) { 
+}
+   
+@media (min-width: 1200px) {
+}

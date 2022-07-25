@@ -1,0 +1,143 @@
+$c-green: #5D9983;
+$c-lightgreen: #c2e0d5;
+$c-brown: #B7AB92;
+$c-darkbrown: #968767;
+$c-red: #D03427;
+$c-orange: #EA8923;
+$c-lightgray: #EEEEEE;
+
+body {
+  margin: 0;
+  // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  //   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  //   sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $c-brown;
+  // font-size: 1.2rem;
+  font-size: 18px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+a {
+  // color: $c-green;
+  text-decoration: none;
+  padding: 5px;
+  // transition: fadeIn 1s 1.5s;
+
+  // &:hover {
+  //   background-color: $c-lightgray;
+  //   text-decoration: none;
+  //   color: $c-orange;
+  //   border: 1px solid $c-orange;
+  // }
+}
+
+h1 {
+  text-transform: uppercase;
+  display: inline-block;
+  white-space: nowrap;
+  text-align: left;
+  border-left: 50px solid $c-orange;
+  padding-left: 10px;
+  font-family: 'Creamy Peachy';
+  font-size: 3.5rem !important;
+}
+
+
+h2 {
+  text-transform: lowercase;
+  text-align: center;
+  font-size: 1.8rem;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+  text-decoration: overline;
+  color: $c-red;
+  font-family: 'Righteous';
+
+
+  &:before {
+    content: '-';
+  }
+  
+  &:after {
+    content: '-';
+  }
+}
+
+
+h3 {
+  font-size: 1.3rem;
+  font-style: italic;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: $c-darkbrown;
+  font-weight: 800;
+  font-family: 'Righteous';
+  text-transform: uppercase;
+}
+
+li {
+  list-style-type: none;
+}
+
+@media (min-width: 992px) {
+  .cont { width: 85%; }
+}
+
+b {
+  color: $c-red;
+}
+
+i {
+  color: $c-orange;
+  font-weight: 500;
+}
+
+.keyword {
+  background-color: $c-lightgreen;
+  display: inline-block;
+  color: black;
+}
+
+.bold-section {
+  font-family: 'Polite Type';
+  font-weight: 600;
+}
+
+.number {
+    font-family: 'Cyrene';
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.red {
+  display: inline-block;
+  color: $c-red;
+}
+
+.bulleted-1 li {
+  list-style-type: circle;
+  padding-left: 15px;
+  list-style-image: url('./assets/images/bullet.png');
+  background-repeat: no-repeat;
+  // background-position: -100px 0px 0px 0px;
+  // vertical-align: middle;
+}
+
+.bulleted-2 {
+  list-style-image: url('./assets/images/bullet.png');
+  padding-left: 15px;
+}
+
+@media (min-width: 576px) { 
+  h1 { font-size: 4.5rem !important; } 
+}
