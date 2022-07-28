@@ -19,7 +19,7 @@ import Next from './Next'
 
 const Dfg = () => {
   return (
-    <div>
+    <div id="top">
         <Container className='cont proj'>
           <br/>
         <Back className='back-top' /><br/>
@@ -96,7 +96,7 @@ After carefully considering the core values and essence of SBU along with client
 <p><br/>The finished product was implemented by another Develop For Good team in Squarespace for ease of client modification and revision, so differences vary accordingly.<img className='end-article' src={EndImg} alt="" /></p>
                 </Col>
             </Row>
-<Next next="Accenture Interactive" subtitle="The Twin Projects of Accenture Malaysia" link="/accenture-interactive" />
+<Next next="Accenture Interactive" subtitle="The Twin Projects of Accenture Malaysia" link="accenture-interactive#top" />
 <Back location="portfolio" className='back-bottom' />
             
         </Container>

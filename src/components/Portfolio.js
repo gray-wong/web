@@ -4,7 +4,9 @@ import { Container } from 'react-bootstrap'
 import Entry from './Entry'
 import './Portfolio.scss'
 
+
 const Portfolio = () => {
+
   return (
     <Container className='cont portfolio g-0'>
       <br/>

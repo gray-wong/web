@@ -14,7 +14,7 @@ import Pheader from './Pheader'
 
 const Accenture = () => {
   return (
-    <div>
+    <div id="top">
         <Container className='cont proj'>
           <br/>
         <Back className='back-top' /><br/>
@@ -91,7 +91,7 @@ The <div className='keyword'>key visual</div> that I created put an emphasis on 
 <p>Overall, I thoroughly enjoyed my internship at Accenture Interactive Malaysia. It was my first foray into the realm of HCI and helped shape the trajectory of my academic degree and career goals.<img className='end-article' src={EndImg} alt="" /></p>
                 </Col>
             </Row>
-<Next next="Design Gallery" subtitle="Piloting the Beginning of Learning" link="/design-gallery" />
+<Next next="Design Gallery" subtitle="Piloting the Beginning of Learning" link="design-gallery#top" />
 <Back className='back-bottom' />
 
         </Container>

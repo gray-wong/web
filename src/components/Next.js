@@ -1,13 +1,19 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHandPointRight } from '@fortawesome/free-solid-svg-icons'
+import { HashLink as Link } from 'react-router-hash-link';
 import { Col, Row } from 'react-bootstrap'
 import './Next.scss'
 
 
 const Next = ({ next, subtitle, link }) => {
+  // let url = "localhost:3000/web" + link
+  let url = "/" + link
+
+  console.log(url)
   return (
-    <a href={link} className='next-link'>
+    <Link to={url} className='next-link'>
+    {/* <a href={link} className='next-link'> */}
     <div className='next-article'>
         <h3>Next article:</h3>
         <Row className='justify-content-center next-link'>
@@ -21,7 +27,8 @@ const Next = ({ next, subtitle, link }) => {
             </Col>
         </Row>
     </div>
-    </a>
+    {/* </a> */}
+    </Link>
   )
 }
 

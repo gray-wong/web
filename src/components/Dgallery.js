@@ -18,7 +18,7 @@ import Feedback from '../assets/images/design-gallery/gallery-feedback.png'
 
 const Dgallery = () => {
   return (
-    <div>
+    <div id="top">
         <Container className='proj cont'>
           <br/>
         <Back className='back-top' /><br/>
@@ -150,7 +150,7 @@ While the research is still in-progress, we believe that these preliminary resul
 </p>
                 </Col>
             </Row>
-<Next next="Progre" subtitle="Fit for the Future: Service Design with Stanford Recreation and Wellness" link="/progre" />
+<Next next="Progre" subtitle="Fit for the Future: Service Design with Stanford Recreation and Wellness" link="progre#top" />
 <Back location="portfolio" className='back-bottom' />
 
         </Container>

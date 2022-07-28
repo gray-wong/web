@@ -5,8 +5,10 @@ import './Contact.scss'
 import LogoPlain from '../assets/images/grayLogo2.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHandPointRight } from '@fortawesome/free-solid-svg-icons'
+import useAnalyticsEventTracker from '../useAnalyticsEventTracker';
 
 const Contact = () => {
+  const gaEventTracker = useAnalyticsEventTracker('Contact');
   return (
     <Container className="contact g-0">
       <Row>
@@ -21,7 +23,7 @@ const Contact = () => {
               I can be contacted at <div className='red keyword'>mayannw 'at' stanford.edu</div><br/>
               Please do not hesitate to reach out to me.
               </p>
-              <a href="/">
+              <a href="/"  onClick={()=>gaEventTracker('resume')}>
               <Row className='contact-nav'>
                 <Col className='align-self-center'>
                 Resume (PDF)
@@ -33,7 +35,7 @@ const Contact = () => {
               </a>
               <br/>
               <br/>
-              <a href="https://www.linkedin.com/in/gray-wong/">
+              <a href="https://www.linkedin.com/in/gray-wong/" onClick={()=>gaEventTracker('linkedin')}>
               <Row className='contact-nav'>
                 <Col className='align-self-center'>
                   LinkedIn

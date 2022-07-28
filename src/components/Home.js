@@ -13,6 +13,8 @@ import Logo from '../assets/images/logo-flower.png';
 import { useRef } from 'react';
 import { motion } from 'framer-motion'
 
+
+
 const Home = () => {
   const about = useRef(null);
   const process = useRef(null);
@@ -25,7 +27,6 @@ const Home = () => {
       behavior: 'smooth',
     });
   };
-
   return (
     <div className='big-cont'>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -152,7 +153,7 @@ const Home = () => {
       </Row>
       <div ref={about}><About /></div>
       <div ref={process}><Process /></div>
-      <div ref={portfolio}><Portfolio /></div>
+      <div ref={portfolio} id='portfolio'><Portfolio /></div>
       </Container>
       
       <div ref={contact}><Contact /></div>
