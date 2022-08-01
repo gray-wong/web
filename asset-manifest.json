@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/web/static/css/main.83755335.css",
+    "main.css": "/web/static/css/main.5e93d4e7.css",
     "main.js": "/web/static/js/main.a56bd979.js",
     "static/js/787.1ed0c42c.chunk.js": "/web/static/js/787.1ed0c42c.chunk.js",
     "static/media/Home.png": "/web/static/media/Home.7d07f2e66037f6370586.png",
@@ -65,12 +65,12 @@
     "static/media/ava-wave.png": "/web/static/media/ava-wave.de49e503300e1c8bf46f.png",
     "static/media/Neutro-Bold.otf": "/web/static/media/Neutro-Bold.f20b58a005e6b4875b73.otf",
     "index.html": "/web/index.html",
-    "main.83755335.css.map": "/web/static/css/main.83755335.css.map",
+    "main.5e93d4e7.css.map": "/web/static/css/main.5e93d4e7.css.map",
     "main.a56bd979.js.map": "/web/static/js/main.a56bd979.js.map",
     "787.1ed0c42c.chunk.js.map": "/web/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83755335.css",
+    "static/css/main.5e93d4e7.css",
     "static/js/main.a56bd979.js"
   ]
 }
