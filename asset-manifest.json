@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/web/static/css/main.89222863.css",
-    "main.js": "/web/static/js/main.5309ecc3.js",
+    "main.css": "/web/static/css/main.48f0560f.css",
+    "main.js": "/web/static/js/main.b27dbe93.js",
     "static/js/787.1ed0c42c.chunk.js": "/web/static/js/787.1ed0c42c.chunk.js",
     "static/media/mockup.jpg": "/web/static/media/mockup.f2bf7cb6e3f967e995ca.jpg",
     "static/media/features.jpg": "/web/static/media/features.f2c971ca35c805561ca0.jpg",
@@ -73,12 +73,12 @@
     "static/media/ava-wave.png": "/web/static/media/ava-wave.de49e503300e1c8bf46f.png",
     "static/media/Neutro-Bold.otf": "/web/static/media/Neutro-Bold.f20b58a005e6b4875b73.otf",
     "index.html": "/web/index.html",
-    "main.89222863.css.map": "/web/static/css/main.89222863.css.map",
-    "main.5309ecc3.js.map": "/web/static/js/main.5309ecc3.js.map",
+    "main.48f0560f.css.map": "/web/static/css/main.48f0560f.css.map",
+    "main.b27dbe93.js.map": "/web/static/js/main.b27dbe93.js.map",
     "787.1ed0c42c.chunk.js.map": "/web/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89222863.css",
-    "static/js/main.5309ecc3.js"
+    "static/css/main.48f0560f.css",
+    "static/js/main.b27dbe93.js"
   ]
 }
